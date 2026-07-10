@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Objekte": {
+      "placeholders_set": 7,
+      "defaults_keys": ["belegungsstatus"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten-Verwaltung für Immobilien. Keine numerischen Felder, keine Datumspaare, keine Preis-Applookups — nichts berechenbar. Status ist reine Klassifikation."
+    },
+    "Mängel": {
+      "placeholders_set": 8,
+      "defaults_keys": ["meldedatum", "prioritaet", "status"],
+      "computed_keys": [],
+      "reason": "Verwaltung von Fehlermeldungen an Objekten. Keine numerischen Felder, keine Preis-/Kosten-Berechnungen — Status und Priorität sind reine Workflow-Klassifizierungen ohne Rechnung."
+    }
+  }
+}

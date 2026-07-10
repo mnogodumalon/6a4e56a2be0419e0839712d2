@@ -1,0 +1,21 @@
+{
+  "ObjekteDialog.tsx": {
+    "bezeichnung": "z. B. Musterstr. 5",
+    "strasse": "z. B. Musterstraße",
+    "hausnummer": "z. B. 5a",
+    "postleitzahl": "z. B. 12345",
+    "stadt": "z. B. Berlin",
+    "belegungsstatus": "z. B. Vermietet",
+    "notizen": "Besonderheiten, Renovierungshinweise, Zustand der Räume..."
+  },
+  "MaengelDialog.tsx": {
+    "objekt": "Welches Objekt hat einen Mangel?",
+    "mangelbezeichnung": "z. B. Riss in der Wand",
+    "beschreibung": "Ort, Umfang, sichtbare Schäden, Gefährdungspotenzial...",
+    "prioritaet": "z. B. Hoch, Dringend",
+    "status": "z. B. Offen",
+    "meldedatum": "Wann wurde der Mangel entdeckt?",
+    "zustaendige_person": "z. B. Max Müller",
+    "kontakt": "z. B. 0123 456789 oder max@beispiel.de"
+  }
+}

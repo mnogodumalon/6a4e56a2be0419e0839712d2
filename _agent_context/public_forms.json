@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "objekte",
+      "app_id": "6a4e5573dde6bff982c5f8a6",
+      "path": "/rest/apps/6a4e5573dde6bff982c5f8a6/records",
+      "allowed_fields": [
+        "bezeichnung",
+        "strasse",
+        "hausnummer",
+        "postleitzahl",
+        "stadt",
+        "standort",
+        "belegungsstatus",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Objekte — Formular"
+    },
+    {
+      "entity": "maengel",
+      "app_id": "6a4e55767e157cea183ea30a",
+      "path": "/rest/apps/6a4e55767e157cea183ea30a/records",
+      "allowed_fields": [
+        "mangelbezeichnung",
+        "beschreibung",
+        "prioritaet",
+        "status",
+        "meldedatum",
+        "zustaendige_person",
+        "kontakt"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Mängel — Formular"
+    }
+  ]
+}
